@@ -1,2 +1,2 @@
-# Career-Edge-
+# Career-Edge
 Ai powered career guidance
