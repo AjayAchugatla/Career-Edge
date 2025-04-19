@@ -185,7 +185,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\pavan\\Career-Edge\\prisma\\app\\generated\\prisma\\client",
+      "value": "C:\\Users\\abdul\\OneDrive\\Desktop\\AI Career Edge\\Career-Edge\\prisma\\app\\generated\\prisma\\client",
       "fromEnvVar": null
     },
     "config": {
@@ -199,12 +199,11 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\pavan\\Career-Edge\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\Users\\abdul\\OneDrive\\Desktop\\AI Career Edge\\Career-Edge\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": null,
-    "schemaEnvPath": "../../../../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../../..",
   "clientVersion": "6.6.0",
