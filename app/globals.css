@@ -75,7 +75,7 @@ body {
 
 @layer utilities {
   .gradient {
-    @apply bg-gradient-to-b from-gray-400 via-gray-200 to-gray-600;
+    @apply bg-gradient-to-r from-teal-50 to-sky-200
   }
 
   .gradient-title {

@@ -25,14 +25,15 @@ export default async function Header() {
   return (
     <header className="fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/">
+        <Link href="/" className="flex items-center space-x-2">
           <Image
-            src={"/logo.png"}
-            alt="Sensai Logo"
-            width={200}
-            height={60}
-            className="h-12 py-1 w-auto object-contain"
+            src="/logo1.jpg"
+            alt="CareerEdge Logo"
+            width={100}
+            height={40}
+            className="h-10 w-auto"
           />
+          CareerEdge
         </Link>
 
         {/* Action Buttons */}
@@ -74,12 +75,6 @@ export default async function Header() {
                   >
                     <PenBox className="h-4 w-4" />
                     Cover Letter
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/interview" className="flex items-center gap-2">
-                    <GraduationCap className="h-4 w-4" />
-                    Interview Prep
                   </Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>
