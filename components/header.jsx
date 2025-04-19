@@ -26,13 +26,13 @@ export default async function Header() {
     <header className="fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
-          <Image
+{/*           <Image
             src="/logo1.jpg"
             alt="CareerEdge Logo"
             width={100}
             height={40}
             className="h-10 w-auto"
-          />
+          /> */}
           CareerEdge
         </Link>
 
