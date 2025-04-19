@@ -185,7 +185,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "E:\\B\\Clg_Projects\\Mini-2\\careeregde\\prisma\\app\\generated\\prisma\\client",
+      "value": "C:\\Users\\pavan\\Career-Edge\\prisma\\app\\generated\\prisma\\client",
       "fromEnvVar": null
     },
     "config": {
@@ -199,7 +199,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "E:\\B\\Clg_Projects\\Mini-2\\careeregde\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\Users\\pavan\\Career-Edge\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
