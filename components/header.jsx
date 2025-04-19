@@ -4,7 +4,6 @@ import {
   PenBox,
   LayoutDashboard,
   FileText,
-  GraduationCap,
   ChevronDown,
   StarsIcon,
 } from "lucide-react";
@@ -18,6 +17,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import Image from "next/image";
 import { checkUser } from "@/lib/checkUser";
+// import { ModeToggle } from "./ui/mode-toggle";
 
 export default async function Header() {
   await checkUser();
@@ -104,6 +104,7 @@ export default async function Header() {
               afterSignOutUrl="/"
             />
           </SignedIn>
+          {/* <ModeToggle /> */}
         </div>
       </nav>
     </header>
